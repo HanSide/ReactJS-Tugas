@@ -1,0 +1,182 @@
+/* #root {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+} */
+/* 
+.biodataKu {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.biodataKu.dark {
+  background-color: #333; 
+  color: white;
+}
+
+.dark-mode-toggle {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+  
+}
+
+.dark-mode-toggle:hover {
+  background-color: #0056b3;
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  margin: 15px 0px 22px 0px;
+  padding: 12px 25px;
+  background: rgba(60, 60, 80, 0.8);
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  transition: all 1s ease;
+  color: #d0d0d0;
+}
+
+p:hover {
+  background: rgba(60, 60, 80, 1);
+  transform: translateX(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8f8f8 0%, rgba(152,140,185,255) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    padding: 20px;
+}
+
+.menu {
+    background: #988cb9;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.menu h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+    position: relative;
+}
+
+.menu h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border-radius: 2px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #f8f8f8 0%, #797099 75%);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item:hover {
+    background: #fff;
+    transform: translateY(-6px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 0;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.menu-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    flex: 1;
+}
+
+.menu-item span {
+    font-size: 16px;
+    color: #ff7e5f;
+    font-weight: 600;
+}
+h1{
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.material-symbols-outlined {
+
+cursor: pointer;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
