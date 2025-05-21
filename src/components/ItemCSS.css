@@ -126,7 +126,7 @@ body {
     border-radius: 2px;
 }
 
-.menu-item {
+.menu-item, form{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -164,7 +164,7 @@ body {
     color: #ff7e5f;
     font-weight: 600;
 }
-h1{
+h1,h2{
     font-size: 2rem;
     color: #333;
     text-align: center;
@@ -179,4 +179,16 @@ cursor: pointer;
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+h1{
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
 }
